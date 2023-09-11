@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm start",
     "server": "nodemon server.js",
     "flixxit-ui": "npm start --prefix ./flixxit-ui",
     "dev": "concurrently \"npm start\" \"npm run flixxit-ui\"",
